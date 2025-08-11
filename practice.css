@@ -1,0 +1,96 @@
+body {
+  background-image: linear-gradient(to right, #434242, #282828);
+  margin: 0;
+}
+
+.outer {
+  background-color: #1c1c1c;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  padding: 2rem;
+  width: 80vw;
+  height: auto;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+ button{
+    border-radius: 2rem;
+    margin-top: 1rem;
+    font-size: smaller;
+    padding: 8px;
+    width: 8rem;
+    color: grey ;
+    background-color:rgb(255, 255, 170) ;
+  }
+
+input {
+  width: 50%;
+  height: 2rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.output {
+  width: 50%;
+  text-align: center;
+  margin: 2rem auto 0;
+  padding: 2rem;
+  border: 3px solid white;
+  border-radius: 4rem;
+  min-height: 40%;
+  height: auto;
+}
+
+/* 📱 Responsive adjustments for phones */
+@media (max-width: 768px) {
+    body{
+        
+    }
+  h1 {
+    font-size: 3em; /* smaller heading */
+    margin-top: 2rem;
+  }
+  button{
+    border-radius: 2rem;
+    margin-top: 1rem;
+    font-size: smaller;
+    padding: 8px;
+    width: 8rem;
+    color: grey ;
+    background-color:rgb(255, 255, 170) ;
+  }
+
+  h4{
+    font-size: smaller;
+  }
+
+  input {
+    width: 90%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    
+  }
+
+  .output {
+    width: 90%;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 2rem;
+    height: auto;
+  }
+
+  .outer {
+    width: 95vw;
+    margin-top: 3rem;
+    padding: 1rem;
+    height: auto;
+  }
+}
